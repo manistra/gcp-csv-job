@@ -8,4 +8,4 @@ COPY index.js ./
 
 RUN npm install --production
 
-CMD npm start
+CMD ["npm","run","start"]
